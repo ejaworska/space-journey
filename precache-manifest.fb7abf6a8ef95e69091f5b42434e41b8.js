@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e60117c225b27db921a50790f1de5abd",
+    "revision": "40545aefc738e8cef74aa3587fa6fce0",
     "url": "/space-journey/index.html"
   },
   {
-    "revision": "cc44ed43c9a176bc733a",
+    "revision": "22c5148607128b3fec5e",
     "url": "/space-journey/static/css/2.cc034990.chunk.css"
   },
   {
-    "revision": "cc44ed43c9a176bc733a",
-    "url": "/space-journey/static/js/2.68bab9fe.chunk.js"
+    "revision": "22c5148607128b3fec5e",
+    "url": "/space-journey/static/js/2.04047ce4.chunk.js"
   },
   {
-    "revision": "4b45ccface8505441c5f",
-    "url": "/space-journey/static/js/main.4ead9a62.chunk.js"
+    "revision": "d722dc0ce493d15cfc9c",
+    "url": "/space-journey/static/js/main.de1b05da.chunk.js"
   },
   {
     "revision": "048a94f65488fe0d6f03",
