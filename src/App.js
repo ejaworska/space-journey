@@ -3,14 +3,14 @@ import { Provider } from 'react-redux';
 import NavigationTabs from './components/NavigationTabs';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import store from './helpers/store';
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 
 function App() {
   return (
     <Provider store={store}>
       <React.Fragment>
         <CssBaseline />  
-        <Router>
+        <Router basename="/">
         <Route
           exact path='/'
           render={(props) => <NavigationTabs {...props} value={0} />}

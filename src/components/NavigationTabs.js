@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import Home from './home/Home';
 import Apod from './apod/Apod';
 import Neo from './neo/Neo';
-import { Switch, Route, Link, BrowserRouter } from "react-router-dom";
+import { Switch, Route, Link, HashRouter as Router} from "react-router-dom";
 
 const useStyles = makeStyles(theme => ({
   root: {
@@ -80,7 +80,7 @@ const NavigationTabs = (props) => {
   }
 
   return (
-    <BrowserRouter>
+    <Router basename="/">
       <div className={classes.root}>
         <Route
           path="/"
@@ -112,7 +112,7 @@ const NavigationTabs = (props) => {
           )}
         />
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

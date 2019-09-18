@@ -46,7 +46,7 @@ class Home extends Component {
                     <Description>
 
                     <Box m={5} p={1}>
-                    <Button variant="outlined" href='/apod'>
+                    <Button variant="outlined" href='/space-journey/#/apod'>
                         Expolore the Universe!
                     </Button>
                     <Box textAlign="center" pt={2} pb={1}>
@@ -56,7 +56,7 @@ class Home extends Component {
                     </Box>     
                 
                     <Box m={5} p={1}>
-                    <Button variant="outlined" href='/neo'>
+                    <Button variant="outlined" href='/space-journey/#/neo'>
                         Meet the newcomers!
                     </Button>
                     <Box textAlign="center" pt={2} pb={1}>
