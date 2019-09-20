@@ -47,7 +47,7 @@ class Home extends Component {
 
                     <Box m={5} p={1}>
                     <Button variant="outlined" href='/space-journey/#/apod'>
-                        Expolore the Universe!
+                        Explore the Universe!
                     </Button>
                     <Box textAlign="center" pt={2} pb={1}>
                         Each day a different photograph of the Universe is featured, along with a brief 
